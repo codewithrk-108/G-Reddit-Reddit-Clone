@@ -139,4 +139,4 @@ made so far on the Sub Greddiit with all the related details
 - backend : node server.js (`Runs on port 4000`)
 - For making docker image : `docker-compose up` in parent directory
 
-** ** # Gredddit-MERNAPP
+** **
