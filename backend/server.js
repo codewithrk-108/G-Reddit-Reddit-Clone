@@ -11,19 +11,6 @@ const { default: mongoose } = require('mongoose')
 
 
 app.use(cors()) // to avoid cross origin error and to attach headers to the response
-// aconst express = require('express')
-const connectDB = require('./db/connect')
-const { Task, Follow, Mysubg } = require('./models/schema')
-require('dotenv').config()
-const jwt = require('jsonwebtoken')
-const cors = require('cors')
-const app = express()
-
-var bcrypt = require('bcryptjs')
-const { default: mongoose } = require('mongoose')
-
-
-app.use(cors()) // to avoid cross origin error and to attach headers to the response
 // app.use(express.urlencoded({ extended: false }))
 // no need till headers are not url encrypted
 //parses requests with the url encoded payloads
