@@ -1,4 +1,4 @@
-# Greddiit 
+# Greddit Mern Application
 
 ## Implemented Features:
 
