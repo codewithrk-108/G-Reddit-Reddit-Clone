@@ -67,9 +67,9 @@
 1. Contains all the reports that have been
 made so far on the Subgreddit with all the related details.
 2. Option to block the user 
-- implemented the button with 5 sec timer.
-- if `BLOCKED` the name of the person who posted is now replaced with the name of “Blocked User”. 
-- The moderator of Subgreddit will still see the original name when viewing the list of Reports.
+    - implemented the button with 5 sec timer.
+    - if `BLOCKED` the name of the person who posted is now replaced with the name of “Blocked User”. 
+    - The moderator of Subgreddit will still see the original name when viewing the list of Reports.
 3. Provides facility for moderator to delete the post in the Subgreddit.
 4. Ignore the reported post will fade out other buttons.
 ** ** 
@@ -84,22 +84,22 @@ made so far on the Subgreddit with all the related details.
 - Followers
 5. The page gives priority to the joined Subgreddits in display ranking. 
 6. For these joined Subgreddits their is a `LEAVE` Button, clicking on which will immediately stop user's access.
-- Once a user leaves a Subgreddit you cannot send a join request to that Subgreddit again.
-- If the current user is the moderator of that Subgreddit, then `LEAVE` button is disabled.
+    - Once a user leaves a Subgreddit you cannot send a join request to that Subgreddit again.
+    - If the current user is the moderator of that Subgreddit, then `LEAVE` button is disabled.
 ** ** 
 <img src="interface/public/images/subgreddit.png"></img>
 ** **
-```On clicking a sub Greddiit, the user is redirected to a page where on the left side their is an Image, Name, Description associated with the clicked Sub Greddiit. ```
+```On clicking a sub Greddiit, the user is redirected to a page where on the left side their is an Image, Name, Description associated with the clicked Subgreddit. ```
 ** ** 
 
 ### User created specific Sub Greddit Page
 1. `Create Post (+)` button to create `POST` in posts page.
 2. Contains all the posts from the creation. (Only Text Posts for now :))
 3. Posts contain the following features
-- `Upvoting` and `Downvoting` facility for the post.
-- `Comments` facility for the post.
-- `SAVE` button for the viewer to save the post for later reference.
-- `FOLLOW` button, wherein a user can follow the user who posted that specific post.
+    - `Upvoting` and `Downvoting` facility for the post.
+    - `Comments` facility for the post.
+    - `SAVE` button for the viewer to save the post for later reference.
+    - `FOLLOW` button, wherein a user can follow the user who posted that specific post.
 4. While creating a post, if the post `BANNED` words (Words which were added by the moderator when the Subgreddit was being created), then an alert is popped with the message that the post contains banned keywords.
 ** ** 
 
